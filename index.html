@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Lalicorne</title>
+    <link rel="shortcut icon" href="favicon.png">
+    <title>lalicorne.net</title>
     <!-- <title>Studio Six. Your Recording Studio in Brussels</title>
     <meta name="description" content="Studio Six provides musicians with best quality instruments and material. Deliver your best performance in the best conditions. - Rehearse More. Edit Less." />
     <meta name="keywords" content="recording studio, sound engineer, Brussels"> -->
@@ -11,18 +12,23 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <script src="privacy.js" defer></script>
     <style>
+    html {
+      height: 100%;
+    }
     body {
-        display: flex;
-        flex-direction: column;
-        color: #FEBFD2;
+      min-height: 80%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      color: #FEBFD2;
     }
     h1, p, a {
       text-align: center;
       font-family: 'Montserrat', sans-serif;
     }
     img {
-      margin: auto;
-      max-height: 300px;
+      margin: 50px auto;
+      max-height: 200px;
       max-width: 90%;
     }
     p {
@@ -36,15 +42,20 @@
     a:hover {
       color: #C4698F;
     }
+    .imageLink {
+      display: block;
+    }
     </style>
   </head>
   <body>
     <h1>En construction</h1>
     <p style="color: #C4698F;">Faire grandir lalicorne prend un peu de temps<br>
       En attendant, venez suivre l'aventure sur <a href="https://www.facebook.com/1601435866813956/" target="_blank">facebook</a></p>
-    <a href="https://www.facebook.com/1601435866813956/" target="_blank">
-      <img src="lalicorne_original.png" alt="LaLICORNE" />
-    </a>
+    <div style="display:flex; justify-content:center;">
+      <a href="https://www.facebook.com/1601435866813956/" target="_blank">
+        <img src="logo_300.png" alt="lalicorne" />
+      </a>
+    </div>
     <p>
       <a href="https://www.facebook.com/1601435866813956/" target="_blank">
         <i class="fa fa-facebook" aria-hidden="true"></i>
@@ -56,7 +67,5 @@
       <a id="phone"></a> -
       <a id="email" target="_top"></a>
     </p>
-
-
   </body>
 </html>
